@@ -1,14 +1,11 @@
-p {
+.badge {
     font-family: 'Inter';
     font-size: 0.875rem;
     font-weight: 500;
     padding: 2px 12px;
     background-color: #F3F4F6;
     color: #1F2937;
-    display: inline-block
-}
-
-.square {
+    display: inline-block;
     border-radius: 4px;
 }
 

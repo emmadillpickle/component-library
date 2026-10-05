@@ -1,11 +1,14 @@
 import './App.css'
 import Badge from './components/badge/Badge.jsx'
+import Banner from './components/banner/Banner.jsx'
 
 export default function App() {
   return (
-    <>
-      <Badge style="square" color="purple">Error</Badge>
-      <Badge style="pill" color="yellow">Warning</Badge>
-    </>
+    <main>
+      <Banner />
+      <Banner type="warning">There is a warning somewhere!</Banner>
+      <Banner type="error" />
+      <Banner type="success" />
+    </main>
   )
 }
