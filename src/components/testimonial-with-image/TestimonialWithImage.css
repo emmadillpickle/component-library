@@ -13,6 +13,8 @@
     height: 464px;
     overflow: hidden;
     border-radius: 12px;
+    box-shadow: 0px 10px 10px -5px #0000000A;
+    box-shadow: 0px 20px 25px -5px #0000001A;
 }
 
 .testimonial-with-image-desktop > .crop > img {
@@ -89,6 +91,8 @@
     overflow: hidden;
     border-radius: 12px;
     margin-top: -103px;
+    box-shadow: 0px 10px 10px -5px #0000000A;
+    box-shadow: 0px 20px 25px -5px #0000001A;
 }
 
 .testimonial-with-image-mobile > .crop > img {

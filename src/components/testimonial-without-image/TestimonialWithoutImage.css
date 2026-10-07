@@ -7,7 +7,6 @@
     width: 1300px;
     padding-top: 96px;
     padding-bottom: 96px;
-    border: 1px solid #6B7280;
     border-radius: 10px;
 
     background-image: url(../../assets/desktop-dot-pattern.png);
@@ -71,7 +70,6 @@
     width: 376px;
     padding-top: 74px;
     padding-bottom: 74px;
-    border: 1px solid #6B7280;
     border-radius: 10px;
 
     background-image: url(../../assets/mobile-dot-pattern.png);

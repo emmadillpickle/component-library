@@ -3,6 +3,8 @@
     flex-direction: column;
     align-items: center;
     width: 384px;
+    background-color: white;
+    border-radius: 8px;
 }
 
 .card-text {
@@ -36,12 +38,13 @@
     display: grid;
     place-items: center;
     position: relative;
-    z-index: 1;
-    margin-bottom: -24px;
+    margin-top: -24px;
+    margin-bottom: -20px;
     width: 48px;
     height: 48px;
     background-color: #3F75FE;
     border-radius: 6px;
+    box-shadow: 0px 4px 6px -2px #0000000D;
     box-shadow: 0px 10px 15px -3px #0000001A;
 }
 
@@ -52,5 +55,6 @@
 }
 
 .hover {
-    box-shadow: 0px 4px 25px 0px #0000001A;
+    box-shadow: 0px 4px 6px -2px #0000000D;
+    box-shadow: 0px 10px 15px -3px #0000001A;
 }
