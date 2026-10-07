@@ -1,3 +1,5 @@
+/* DESKTOP STYLING */
+
 .testimonial-without-image-desktop {
     display: flex;
     flex-direction: column;
@@ -60,8 +62,7 @@
     color: #6B7280;
 }
 
-
-/* DIVIDER !!!!! */
+/* MOBILE STYLING */
 
 .testimonial-without-image-mobile {
     display: flex;
