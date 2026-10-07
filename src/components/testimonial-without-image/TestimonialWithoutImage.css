@@ -1,0 +1,124 @@
+.testimonial-without-image-desktop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1300px;
+    padding-top: 96px;
+    padding-bottom: 96px;
+    border: 1px solid #6B7280;
+    border-radius: 10px;
+
+    background-image: url(../../assets/desktop-dot-pattern.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: 241px 298px;
+    background-position-y: 146px;
+}
+
+.testimonial-without-image-desktop > img {
+    width: auto;
+    height: 32px; 
+    object-fit: contain;
+}
+
+
+.testimonial-without-image-desktop > h1 {
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 36px;
+    width: 768px;
+    color: #111827;
+}
+
+.testimonial-without-image-desktop > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.testimonial-without-image-desktop > div > h2 {
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 24px;
+    color: #111827;
+}
+
+.testimonial-without-image-desktop > div > img {
+    height: 20px;
+    width: 20px;
+}
+
+.testimonial-without-image-desktop > div > p {
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 24px;
+    color: #6B7280;
+}
+
+
+/* DIVIDER !!!!! */
+
+.testimonial-without-image-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 376px;
+    padding-top: 74px;
+    padding-bottom: 74px;
+    border: 1px solid #6B7280;
+    border-radius: 10px;
+
+    background-image: url(../../assets/mobile-dot-pattern.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: 202px 135px;
+}
+
+.testimonial-without-image-mobile > img {
+    width: auto;
+    height: 32px; 
+    object-fit: contain;
+}
+
+
+.testimonial-without-image-mobile > h1 {
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-align: left;
+    line-height: 36px;
+    width: 344px;
+    color: #111827;
+    margin-top: 40px;
+}
+
+.testimonial-without-image-mobile > div {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 344px;
+    margin-top: 12px;
+}
+
+.testimonial-without-image-mobile > div > h2 {
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 24px;
+    color: #111827;
+    margin-bottom: 0px;
+}
+
+.testimonial-without-image-mobile > div > p {
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 24px;
+    color: #6B7280;
+    margin-top: 0px;
+}
